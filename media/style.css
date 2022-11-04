@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+
+/* ==== common styling ==== */
+
+*{
+    font-family: 'Roboto', sans-serif;;
+    margin: 0;padding: 0;
+    outline: 0;border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.container{
+    background: #f9fafb;
+    padding: 50px 30px;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.p-style{
+    padding: 15px;
+    color: #333;
+    font-size: 16px;
+}
+
+.btn{
+    background: #5048e5;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn label{
+    color: #fff !important;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+.span-icon {
+    font-size: 18px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+.span-icon2{
+    font-size: 35px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.line{
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin: 10px 0;
+}
+
+
+/* ==== common styling ==== */
+
+/* ==== sub-nav area ==== */
+
+.products .prd-item .imputbox input[type="file"]{
+    display: none;
+}
+
+.products .container .imputbox{
+    margin-right: 20px;
+}
+
+.products .container .imputbox label span{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.products .container .imputbox label{
+    font-size: 18px;
+    color: #5048e5;
+    cursor: pointer;
+}
+
+
+/* ==== sub-nav area ==== */
+
+/* ==== search-area ==== */
+
+.products .container .search-area{
+    margin: 20px 0;
+    background: #fff;
+    padding: 25px 0;
+    position: relative;
+}
+
+.products .container .search-area .inputbox {
+    display: flex;
+    width: 35%;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.products .container .search-area .inputbox span{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.products .container .search-area input{
+    width: 100%;
+    padding: 10px;
+}
+
+.products .container .search-area label{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/* ==== search-area ==== */
+
+/* ==== sub-nav area ==== */
+
+
+
+.products .box-container .box{
+    flex: 1 1 30rem;
+    margin: 10px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.products .box-container .box .box-contain{
+    text-align: center;
+}
+
+.products .box-container .box .box-contain{
+    padding: 18px 30px;
+}
+
+.products .box-container .box .box-footer{
+    padding: 18px 30px;
+}
+
+.products .box-container .box img{
+    margin: 15px 0;
+}
+
+.products .box-container .box .box-footer p{
+    color: #666;
+    font-size: 16px;
+}
+
+
+/* ==== sub-nav area ==== */
+
+/* ==== pagination area ==== */
+
+.products .container .pagination{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.products .container .pagination a{
+    margin: 0 13px;
+}
+
+.products .container .pagination a:hover{
+    background: #5048e5;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+/* ==== pagination area ==== */
